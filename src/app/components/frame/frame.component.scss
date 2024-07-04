@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    color: rgba(212, 25, 25, 1.00);
+    letter-spacing: .2em;
+    background-image: url(https://www.bomberosdaule.gob.ec/imagenes/panoramica.gif);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: #d3d3d3 1px solid;
+    text-align: justify;
+    margin-left: 240px;
+    margin: 10px auto;
+    width: 1200px;
+}
+div.autores {
+    color: #BFBFBF;
+    font-size: 85%;
+    text-align: center;
+    font-style: oblique;
+}
+div.contenido {
+    border: #d3d3d3 1px solid;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 240px;
+    margin-bottom: 10px;
+    background-image: url(https://www.bomberosdaule.gob.ec/imagenes/contenido_top.png);
+    //background-color: #f5f5f5;
+    background-repeat: repeat-x;
+    max-height: 150000px;
+    min-height: calc(50vh - 50px);
+}
+div.menu {
+    position: absolute;
+    padding: 0;
+}
+div.red_arriba {
+    background-image: url(https://www.bomberosdaule.gob.ec/imagenes/body_lt.png);
+    background-position: left top;
+    left: -1px;
+    top: -1px;
+}
+div.red_arriba, div.red_arriba div, div.red_abajo, div.red_abajo div {
+    height: 10px;
+    background-repeat: no-repeat;
+    position: relative;
+}

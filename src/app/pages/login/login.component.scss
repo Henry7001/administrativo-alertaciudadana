@@ -1,0 +1,47 @@
+h2 {
+    color: #F22A2A;
+    border-bottom: #CFDFB5 1px solid;
+    padding-inline-start: 10px;
+}
+
+.full-screen-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.full-width {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.p-password-input{
+    width: 100% !important;
+    padding: 0.5em !important;
+    box-sizing: border-box !important;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+.error-message {
+    color: #F22A2A;
+    margin-top: 0.5em;
+    font-size: 0.875em;
+}

@@ -1,0 +1,5 @@
+<ul id="menu">
+  <li *ngFor="let item of menuItems" class="{{concatenateClasses(item)}}">
+    <a [routerLink]="item.link">{{ item.label }}</a>
+  </li>
+</ul>
